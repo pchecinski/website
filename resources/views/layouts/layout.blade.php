@@ -38,7 +38,10 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @yield('content')
+            <div class="content">
+            <h1>Bootstrap + Laravel PHP Gallery</h1>
+                @yield('content')
+            </div>
         </div>
     </body>
 </html>
