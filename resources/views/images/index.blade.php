@@ -1,6 +1,6 @@
 @extends('layouts.layout')
+@section('content')
 <p class="message">{{ session('message') }}</p>
-
 <div class="row">
 @foreach($images as $image)
     <div class="col-lg-3 col-md-4 col-xs-6 thumb">
@@ -15,5 +15,4 @@
     </div>
 @endforeach
 </div>
-
 @endsection

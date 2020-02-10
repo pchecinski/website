@@ -1,7 +1,5 @@
 @extends('layouts.layout')
-
 @section('content')
-
 <form action="/image" method="post" enctype="multipart/form-data">
     @csrf
     <div class="form-group">
